@@ -1,0 +1,87 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titleFont{
+    
+    border-style: dotted;
+    border-color: red;
+}
+
+.general {
+    height: 100vh;   
+    
+    background-image: url(../assets/bg9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    //background-color: green;
+}
+
+#titleH {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    font-size: 2vw;
+    padding: .8em 1.2em;
+    color: black;
+    //background-color: darkcyan;
+    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    //background-color:black;
+}
+
+#titleH h1 {
+    margin:auto;
+    line-height:51px;
+    vertical-align:middle;
+}
+
+.menu {
+    position: absolute;
+    top: 90%;
+    left: 52%;
+    width: 50%;
+    
+    padding: .8em 1.2em;
+    color: white;
+    //background-color: rgb(57, 194, 30);
+    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.menu a {
+	float: left;
+	text-align: center;
+	color:black;
+	padding: 0.6vw 0.8vw;
+	text-decoration: none;
+    font-size: 2vw;
+    margin-left: 2vw;
+    border-style: solid;
+    border-width: 2px;
+    
+    //position:absolute;
+    text-align:center;
+}
+
+.menu a:hover{
+    color: black;
+    background-color: white;
+}
+
+.menu a.active{
+	color: purple;
+}
+
+.menu a.active:hover{
+	color: white;
+}
